@@ -73,9 +73,9 @@ if __name__ == "__main__":
     
     aco = ACO()
     aco_solution, aco_iteration, aco_decoded = aco.run_aco(
-        num_iterations=2,
-        num_ants=5,
-        local_search_iterations=2
+        num_iterations=100,
+        num_ants=20,
+        local_search_iterations=5
     )
     
     aco_end_time = time.time()
