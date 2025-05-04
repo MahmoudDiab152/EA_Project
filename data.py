@@ -2,6 +2,7 @@ import csv
 from exam import Exam
 from room import Room
 from student import Student
+
 class Data:
   @staticmethod
   def read_students():
